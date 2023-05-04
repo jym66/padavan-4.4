@@ -35,7 +35,7 @@ ifeq ($(GITHUB_ACTION),n)
 	curl --create-dirs -L https://go.dev/dl/go1.19.1.linux-amd64.tar.gz -o $(THISDIR)/go/go1.19.1.linux-amd64.tar.gz ; \
 	fi )
 	( if [ ! -d $(THISDIR)/go/go ]; then \
-	tar zxfv $(THISDIR)/go1.19.1.linux-amd64.tar.gz -C go ; \
+	tar zxfv $(THISDIR)/go/go1.19.1.linux-amd64.tar.gz -C go ; \
 	fi )
 endif
 clean:
