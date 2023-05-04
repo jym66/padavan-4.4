@@ -31,11 +31,11 @@ all:go_build
 go_build:
 ifeq ($(GITHUB_ACTION),n)
 	mkdir -p $(THISDIR)/go
-	( if [ ! -f $(THISDIR)/go/go1.17.1.linux-amd64.tar.gz ]; then \
-	curl --create-dirs -L https://go.dev/dl/go1.17.1.linux-amd64.tar.gz -o $(THISDIR)/go/go1.17.1.linux-amd64.tar.gz ; \
+	( if [ ! -f $(THISDIR)/go/go1.20.4.linux-amd64.tar.gz ]; then \
+	curl --create-dirs -L https://go.dev/dl/go1.20.4.linux-amd64.tar.gz -o $(THISDIR)/go/go1.20.4.linux-amd64.tar.gz ; \
 	fi )
 	( if [ ! -d $(THISDIR)/go/go ]; then \
-	tar zxfv $(THISDIR)/go/go1.17.1.linux-amd64.tar.gz -C go ; \
+	tar zxfv $(THISDIR)/go/go1.20.4.linux-amd64.tar.gz -C go ; \
 	fi )
 endif
 clean:
