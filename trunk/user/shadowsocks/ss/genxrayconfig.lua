@@ -61,7 +61,7 @@ log = {
 			tlsSettings = (server.tls == '1') and 
 			{
 				allowInsecure = (server.insecure ~= "0") and true or false,
-				fingerprint: "chrome",
+				fingerprint = "chrome",
 				serverName=server.tls_host
 			} or nil,
 
