@@ -1215,7 +1215,7 @@ setTimeout('document.getElementById("btn_ctime").style.display="none";',1000);
 					    if(queryParam.flow == 'xtls-rprx-direct'){
 					    	document.getElementById('v2_flow').value = '1';
 					    }
-					    else if(queryParam.flow == 'xtls-rprx-splice'){
+					    else if(queryParam.flow == 'xtls-rprx-vision'){
 					    	document.getElementById('v2_flow').value = '2';
 					    }
 					    else
