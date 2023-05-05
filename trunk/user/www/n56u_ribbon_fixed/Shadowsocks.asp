@@ -2331,7 +2331,7 @@ setTimeout('document.getElementById("btn_ctime").style.display="none";',1000);
 																<select name="v2_flow" id="v2_flow" class="input" style="width: 200px;">
 																	<option value="0">未配置</option>
 																	<option value="1">xtls-rprx-direct</option>
-																	<option value="2">xtls-rprx-splice</option>
+																	<option value="2">xtls-rprx-vision</option>
 																</select>
 
 															</td>
