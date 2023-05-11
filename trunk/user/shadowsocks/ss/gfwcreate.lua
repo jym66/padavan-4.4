@@ -35,8 +35,8 @@ local function generate_gfwlist()
 		end
 	end
 	for k, v in pairs(domains) do
-		out:write(string.format("server=/%s/%s#%s\n", k, mydnsip, mydnsport))
-		out:write(string.format("ipset=/%s/%s\n", k, ipsetname))
+		out:write(string.format("server=/.%s/%s#%s\n", k, mydnsip, mydnsport))
+		out:write(string.format("ipset=/.%s/%s\n", k, ipsetname))
 	end
 	out:close()
 end
