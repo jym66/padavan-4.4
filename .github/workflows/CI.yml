@@ -1,4 +1,4 @@
-name: CI
+name: CI(Dnsmasq2.89)
 
 # Controls when the action will run. 
 on: 
